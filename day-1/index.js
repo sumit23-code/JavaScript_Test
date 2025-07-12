@@ -6,14 +6,14 @@
 //  Output 2: [20, 30, 40]
 
 
-// let ele = [1, 2, 3, 4, 5];
-// let element =  ele.slice(-3);
-// console.log(element);
+let ele = [1, 2, 3, 4, 5];
+let element =  ele.slice(-3);
+console.log(element);
 
 
-// let val = [10, 20, 30, 40];
-// let values =  val.slice(-3);
-// console.log(values);
+let val = [10, 20, 30, 40];
+let values =  val.slice(-3);
+console.log(values);
 
 
 
@@ -26,14 +26,14 @@
 //  Input 2: [10, 11, 12, 13]
 //  Output 2: [10, 11, 13]
 
-// const elements = [1, 2 , 3, 4];
-// elements.splice(2,1);
-// console.log(elements);
+const elements = [1, 2 , 3, 4];
+elements.splice(2,1);
+console.log(elements);
 
 
-// const numbers = [10, 11, 12, 13];
-// numbers.splice(2,1);
-// console.log(numbers);
+const numbers = [10, 11, 12, 13];
+numbers.splice(2,1);
+console.log(numbers);
 
 
 
@@ -46,14 +46,14 @@
 //  Output 2: false
 
 
-// let array = [1, 2, 3, 4];
-// let numbers = array.every(num => num > 0);
-// console.log(numbers);
+let array = [1, 2, 3, 4];
+let numbers = array.every(num => num > 0);
+console.log(numbers);
 
 
-// let arry = [-1, 0, 5];
-// let elements = arry.every(num => num > 0);
-// console.log(elements);
+let arry = [-1, 0, 5];
+let elements = arry.every(num => num > 0);
+console.log(elements);
 
 
 
@@ -67,14 +67,14 @@
 
 
 
-// let ele = [10, 25, 60, 40];
-// let number = ele.find(num => num > 50);
-// console.log(number);
+let ele = [10, 25, 60, 40];
+let number = ele.find(num => num > 50);
+console.log(number);
 
 
-// let numbers = [45, 52, 19];
-// let element = numbers.find(num => num > 50);
-// console.log(element);
+let numbers = [45, 52, 19];
+let element = numbers.find(num => num > 50);
+console.log(element);
 
 
 
@@ -87,14 +87,14 @@
 //  Output 2: [10, 20]
 
 
-// let input = [1, 2, 3];
-// let output = input.map(num => num * 2);
-// console.log(output);
+let input = [1, 2, 3];
+let output = input.map(num => num * 2);
+console.log(output);
 
 
-// let num = [5,10];
-// let ele = num.map(num => num*2);
-// console.log(ele);
+let num = [5,10];
+let ele = num.map(num => num*2);
+console.log(ele);
 
 
 
@@ -107,14 +107,14 @@
 //  Output 2: [15, 25]
 
 
-// let input = [1, 2, 3, 4, 5];
-// let output = input.filter(num => num % 2 === 1);
-// console.log(output);
+let input = [1, 2, 3, 4, 5];
+let output = input.filter(num => num % 2 === 1);
+console.log(output);
 
 
-// let ele = [10, 15, 20, 25];
-// let val = ele.filter(num => num % 2 === 1);
-// console.log(val);
+let ele = [10, 15, 20, 25];
+let val = ele.filter(num => num % 2 === 1);
+console.log(val);
 
 
 
@@ -129,13 +129,13 @@
 //  Output 2: 6
 
 
-// let input = ['hi', 'world'];
-// let output = input.reduce((acc,curr) => acc + curr.length,0);
-// console.log(output);
+let input = ['hi', 'world'];
+let output = input.reduce((acc,curr) => acc + curr.length,0);
+console.log(output);
 
-// let char = ['a', 'ab', 'abc'];
-// let val = char.reduce((acc,curr) => acc + curr.length, 0);
-// console.log(val);
+let char = ['a', 'ab', 'abc'];
+let val = char.reduce((acc,curr) => acc + curr.length, 0);
+console.log(val);
 
 
 
@@ -150,14 +150,14 @@
 //  Output 2: ['a', 'b', 'c']
 
 
-// let val = [1, [2, 3], 4];
-// let number = val.flat();
-// console.log(number);
+let val = [1, [2, 3], 4];
+let number = val.flat();
+console.log(number);
 
 
-// let value = ['a', ['b', 'c']];
-// let char = value.flat();
-// console.log(char);
+let value = ['a', ['b', 'c']];
+let char = value.flat();
+console.log(char);
 
 
 
@@ -170,14 +170,14 @@
 //  Output 2: false
 
 
-// let val = [3, 6, 10, 14];
-// let num = val.some(num => num % 5 === 0);
-// console.log(num);
+let val = [3, 6, 10, 14];
+let num = val.some(num => num % 5 === 0);
+console.log(num);
 
 
-// let number = [2, 4, 6];
-// let value = number.some(num => num % 5 === 0);
-// console.log(value);
+let number = [2, 4, 6];
+let value = number.some(num => num % 5 === 0);
+console.log(value);
 
 
 
