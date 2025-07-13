@@ -174,24 +174,24 @@ console.log(count1);
 // Output 2: {4:3}
 
 
-// let arr = [1, 2, 2, 3];
-// let val = {};
-// for (let i = 0; i < arr.length; i++){
-//     if (val[arr[i]]){val[arr[i]]++;}
-//     else{val[arr[i]]=1}
-// }
-// console.log(val);
+let arr = [1, 2, 2, 3];
+let val = {};
+for (let i = 0; i < arr.length; i++){
+    if (val[arr[i]]){val[arr[i]]++;}
+    else{val[arr[i]]=1}
+}
+console.log(val);
 
 
 
 
-// let arr2 = [4, 4, 4];
-// let val2 = {};
-// for (let i = 0; i < arr2.length; i++){
-//     if (val2[arr2[i]]){val2[arr2[i]]++;}
-//     else{val2[arr2[i]]=1}
-// }
-// console.log(val2);
+let arr2 = [4, 4, 4];
+let val2 = {};
+for (let i = 0; i < arr2.length; i++){
+    if (val2[arr2[i]]){val2[arr2[i]]++;}
+    else{val2[arr2[i]]=1}
+}
+console.log(val2);
 
 
 
@@ -206,17 +206,17 @@ console.log(count1);
 
 
 
-// let val = {a:1};
-// let val2 = {b:2};
-// let output = {...val, ...val2};
-// console.log(output);
+let val = {a:1};
+let val2 = {b:2};
+let output = {...val, ...val2};
+console.log(output);
 
 
 
-// let char = {x:10}
-// let char2 = {x:20, y:30};
-// let output1 = {...char, ...char2}
-// console.log(output1);
+let char = {x:10}
+let char2 = {x:20, y:30};
+let output1 = {...char, ...char2}
+console.log(output1);
 
 
 
@@ -231,31 +231,31 @@ console.log(count1);
 
 
 
-// let obj = {a: 1, b: 5, c: 3};
-// let max = 0;
-// let key = '';
-// for (let k in obj){
-//     if(obj [k] > max){
-//         max = obj[k];
-//         key=k;
-//     }
+let obj = {a: 1, b: 5, c: 3};
+let max = 0;
+let key = '';
+for (let k in obj){
+    if(obj [k] > max){
+        max = obj[k];
+        key=k;
+    }
 
-// }
-// console.log(key);
+}
+console.log(key);
 
 
 
-// let obj1 = {x: 100, y: 99};
-// let max1 = 0;
-// let key1 = '';
-// for (let k in obj1){
-//     if(obj1 [k] > max1){
-//         max1 = obj1[k];
-//         key1=k;
-//     }
+let obj1 = {x: 100, y: 99};
+let max1 = 0;
+let key1 = '';
+for (let k in obj1){
+    if(obj1 [k] > max1){
+        max1 = obj1[k];
+        key1=k;
+    }
 
-// }
-// console.log(key1);
+}
+console.log(key1);
 
 
 
